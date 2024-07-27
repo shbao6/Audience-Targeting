@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Mar 14 00:14:17 2022
-
 @author: shiqi
 """
 import os
-os.chdir('/Users/shiqi/Downloads/Data Analyst Take Home Exam/')
+os.chdir('/Users/shiqi/Downloads/Data/')
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import OneHotEncoder
 
-data = pd.read_csv('Data Analyst Take Home Exam Data.csv')
+data = pd.read_csv('Data.csv')
 data.info()
 data.columns
 #### Part B
